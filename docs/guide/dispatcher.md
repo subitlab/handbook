@@ -1,5 +1,5 @@
 ---
-title: 调度页面
+title: 目录
 lang: zh-CN
 description: 找找你想看的，逐步更新中
 layout: home
@@ -13,11 +13,11 @@ features:
   - title: 代码开发基础
     icon: 💻
     details: 一切开发的基础，看看什么是你感兴趣的
-    link: guide/Development/api-examples
-  - title: 预科部指南
+    link: guide/development/api-examples
+  - title: 学习指南
     icon: 📚
-    details: 附中的高三也是要努力的<br/>一切和预科部相关的事情
-    link: guide/Preparatory/api-examples
+    details: 升学 高考 出国<br/>一些和大学相关的事情
+    link: guide/study/starter
   - title: 正在施工中
     icon: ⛏
     details: 敬请期待...

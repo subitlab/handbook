@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 📂从这里开始
-      link: /guide/starter
+      link: /guide/dispatcher
     - theme: alt
       text: 🍺 Github  
       link: https://github.com/subitlab/handbook
