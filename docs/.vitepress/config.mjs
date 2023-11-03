@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { webSvg } from './components/icon.mjs'
-import { examinationsSidebar } from './components/sidebar.mjs'
+import { webSvg } from './configComponents/icon.mjs'
+import { examinationsSidebar, developmentSidebar } from './configComponents/sidebar.mjs'
 
 const date = new Date()
 
@@ -19,10 +19,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     lastUpdated: {
-      text: '最后更新时间',
+      text: 'Last Updated at',
       formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium',
+        dateStyle: 'short',
+        timeStyle: 'short',
+        hourCycle: 'h23',
       }
     },
 
@@ -30,11 +31,12 @@ export default defineConfig({
       { text: '🏠首页', link: '/' },
       { text: '💻开发', link: '/guide/development/api-examples' },
       { text: '📚学习', link: '/guide/study/preparatory' },
-      { text: '关于', link: '/about' }
+      { text: '🔍关于', link: '/about' }
     ],
 
     sidebar: {
       "/guide/study": examinationsSidebar,
+      "/guide/development": developmentSidebar,
     },
 
     socialLinks: [
