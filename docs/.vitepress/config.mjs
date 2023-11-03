@@ -12,7 +12,8 @@ export default defineConfig({
   logo: "/images/SubIT-Normal.svg",
   description: "this is SubIT Handbook Project",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap' }]
   ],
   lastUpdated: true,
   themeConfig: {
