@@ -29,6 +29,14 @@ let bloggerSvg =
 
 const coreMembers = [
   {
+    avatar: 'https://s2.loli.net/2023/11/04/yk597QDgp4icwJP.jpg',
+    name: '地铁狂羊',
+    title: '2021 SubIT 社长',
+    links: [
+      { icon: 'github', link: 'https://github.com/smallg0at' },
+    ]
+  },
+  {
     avatar: 'https://avatars.githubusercontent.com/u/25414059?v=4',
     name: 'StevenKerman',
     title: '2022 SubIT 社长',
@@ -83,12 +91,12 @@ const thanks =  [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>我们的团队</template>
-    <template #lead>Powered By <a href="https://subit.org.cn" target="__blank" class="link">SubIT</a></template>
+    <template #lead>Powered By <a href="https://subit.org.cn" target="__blank" class="link">SubIT</a>，排名不分先后</template>
   </VPTeamPageTitle>
-  <VPTeamMembers size="medium" :members="coreMembers" />
+  <VPTeamMembers size="small" :members="coreMembers" />
   <VPTeamPageSection>
     <template #title>特别鸣谢</template>
-    <template #lead>提供材料，整理内容等</template>
+    <template #lead>启发思考，提供材料，整理内容等</template>
     <template #members>
       <VPTeamMembers size="small" :members="thanks" />
     </template>
