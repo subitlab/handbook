@@ -7,12 +7,12 @@ hero:
   text: "基本知识，经验传授，或者一些其他你想要的"
   tagline: "从一点点开始"
   image:
-    src: "https://subit.org.cn/static/SubIT-Normal.svg"
+    src: "/images/SubIT-Normal.svg"
     alt: SubIT
   actions:
     - theme: brand
       text: 📂从这里开始
-      link: /markdown-examplesls
+      link: /guide/starter
     - theme: alt
       text: 🍺 Github  
       link: https://github.com/subitlab/handbook

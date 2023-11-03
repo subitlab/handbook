@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { webSvg } from './icon.mjs'
 
 const date = new Date()
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,26 +11,30 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '开发', link: '/guide/Development/api-examples' },
+      { text: '预科', link: '/guide/Preparatory/api-examples' },
+      { text: '关于', link: '/about' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      "/guide/": [
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Markdown Examples', link: '/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        }
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/subitlab/handbook' },
-      { icon: 'web', link: 'https://subit.org.cn'}
+      { icon: { svg: webSvg }, link: 'https://subit.org.cn' }
     ],
-    footer:{
-      message:`Last Updated on ${date.getFullYear()}-${date.getMonth()}-${date.getDay()}`,
+    footer: {
+      message: `Last Updated on ${date.getFullYear()}-${date.getMonth()}-${date.getDay()}`,
       copyright: 'Copyright © 2018-present SubIT, Pkuschool'
     }
   }
