@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { webSvg } from './configComponents/icon.mjs'
-import { examinationsSidebar, developmentSidebar } from './configComponents/sidebar.mjs'
+import {
+  highSchoolSidebar,
+  developmentSidebar,
+  collegeSidebar,
+} from './configComponents/sidebar.mjs'
 
 const date = new Date()
 
@@ -30,14 +34,17 @@ export default defineConfig({
 
     nav: [
       { text: '🏠首页', link: '/' },
+      { text: '🚗目录', link: '/guide/dispatcher' },
       { text: '💻开发', link: '/guide/development/api-examples' },
-      { text: '📚学习', link: '/guide/study/preparatory' },
+      { text: '📚升学', link: '/guide/high-school-study/preparatory' },
+      // { text: '🏫大学', link: 'guide/college/starter' },
       { text: '🔍关于', link: '/about' }
     ],
 
     sidebar: {
-      "/guide/study": examinationsSidebar,
       "/guide/development": developmentSidebar,
+      "/guide/high-school-study": highSchoolSidebar,
+      "/guide/college-study": collegeSidebar,
     },
 
     socialLinks: [

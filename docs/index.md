@@ -22,9 +22,9 @@ features:
     icon: 📚
     details: 北大附中的中心社团<br>2018 - present
     link: https://subit.org.cn
-  - title: 经验所谈
+  - title: 来自身边
     icon: 📖
-    details: "经验积累，真情实感"
+    details: "学长经验积累，语重心长"
   - title: 格式优化
     icon: 🏝️
     details: VitePress + Markdown 呈现<br>包含优美格式

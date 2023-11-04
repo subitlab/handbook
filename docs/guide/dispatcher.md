@@ -14,10 +14,14 @@ features:
     icon: 💻
     details: 写写项目，代码改变生活？<br/>看看什么是你感兴趣的
     link: guide/web-development/api-examples
-  - title: 学习指南
+  - title: 高中学习指南
     icon: 📚
-    details: 升学 高考 出国<br/>一些和大学相关的事情
-    link: guide/study/starter
+    details: 升学 高考 出国<br/>一些和升学学相关的事情
+    link: guide/high-school-study/starter
+  - title: 大学指南
+    icon: 🏫
+    details: 你得大学像高中？不如附中？<br/>或许你得尝试接受...
+    link: guide/college-study/starter
   - title: 深度学习
     icon: 🤖
     details: 这玩意很火，怎么开始呢<br/>新建文件夹了
