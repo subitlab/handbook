@@ -13,7 +13,7 @@ features:
   - title: Web开发基础
     icon: 💻
     details: 写写项目，代码改变生活？<br/>看看什么是你感兴趣的
-    link: guide/web-development/api-examples
+    link: guide/development/starter
   - title: 高中学习指南
     icon: 📚
     details: 升学 高考 出国<br/>一些和升学学相关的事情
