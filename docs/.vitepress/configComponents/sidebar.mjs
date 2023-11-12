@@ -19,8 +19,8 @@ export let highSchoolSidebar = [
     {
         text: '出国方向',
         items: [
-            { text: '国际部生存指南', link: '/guide/high-school-study/international' },
-            { text: '如何申请大学', link: '/guide/high-school-study/application-for-study-aboard' },
+            { text: '国际部生存指南', link: '/guide/high-school-study/international/introduction' },
+            { text: '关于申请大学', link: '/guide/high-school-study/international/applying' },
         ]
     }
 ];
